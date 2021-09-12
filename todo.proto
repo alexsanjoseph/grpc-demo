@@ -4,7 +4,8 @@ package todoPackage;
 
 service Todo {
     rpc createTodo(TodoItem) returns(TodoItem);
-    rpc readTodo(voidParam) returns(TodoItems);
+    rpc readTodos(voidParam) returns(TodoItems);
+    rpc readTodosStream(voidParam) returns(stream TodoItem);
 }
 
 message voidParam {}
