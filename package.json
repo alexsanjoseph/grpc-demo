@@ -1,0 +1,15 @@
+{
+    "name": "grpc-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.json"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@grpc/proto-loader": "^0.6.4",
+        "grpc": "^1.24.11"
+    }
+}
